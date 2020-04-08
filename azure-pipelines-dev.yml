@@ -37,14 +37,13 @@ jobs:
       sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
     displayName: 'Edit Host'
 
-  - task: Cache@2
+  - task: RestoreAndSaveCache@1
     inputs:
-      key: 'yarn | "$(Agent.OS)" | yarn.lock'
-      restoreKeys: |
-         yarn | "$(Agent.OS)"
-         yarn
-      path: $(YARN_CACHE_FOLDER)
-    displayName: Cache Yarn packages
+      keyfile: '**/package-lock.json, !**/node_modules/**/package-lock.json, !**/.*/**/package-lock.json'
+      targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
+      vstsFeed: 'ceb3eb4c-9f7a-4b72-a4cc-894f77df3764'
+      platformIndependent: true
+    displayName: 'Restore And Save Cache'
 
   - script: |
       yarn
