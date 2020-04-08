@@ -33,6 +33,10 @@ jobs:
     displayName: 'Install Node.js'
 
   - script: |
+      sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
+    displayName: 'Edit Host'
+
+  - script: |
       yarn
     displayName: 'Install dependencies'
 
