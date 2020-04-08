@@ -39,9 +39,9 @@ jobs:
 
   - task: RestoreAndSaveCache@1
     inputs:
-      keyfile: '**/package-lock.json, !**/node_modules/**/package-lock.json, !**/.*/**/package-lock.json'
+      keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
       targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: 'ceb3eb4c-9f7a-4b72-a4cc-894f77df3764'
+      vstsFeed: '8c74558d-f0e4-4438-a798-16d571331b8e'
       platformIndependent: true
     displayName: 'Restore And Save Cache'
 
