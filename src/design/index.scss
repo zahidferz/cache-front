@@ -1,0 +1,257 @@
+// @font-face {
+//   font-family: 'Gothic A1';
+//   font-style: normal;
+//   font-weight: 300;
+//   src: url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-Regular.eot');
+//   src: url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-Regular.eot?#iefix') format('embedded-opentype'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-Regular.woff2') format('woff2'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-Regular.woff') format('woff'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-Regular.ttf') format('truetype'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-Regular.svg#GothicA1-Regular') format('svg');
+// }
+
+// @font-face {
+//   font-family: 'Gothic A1';
+//   font-style: normal;
+//   font-weight: 600;
+//   src: url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-ExtraBold.eot');
+//   src: url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-ExtraBold.eot?#iefix') format('embedded-opentype'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-ExtraBold.woff2') format('woff2'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-ExtraBold.woff') format('woff'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-ExtraBold.ttf') format('truetype'),
+//     url('https://gestionixcorefonts.blob.core.windows.net/fonts/gothic/GothicA1-ExtraBold.svg#GothicA1-ExtraBold') format('svg');
+// }
+
+// // Notice that tailwind sets font-bold as 600, but the cascade will look for the next match in ascending order, which will be 700 in this case
+// // https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+// @import url('https://fonts.googleapis.com/css?family=Nunito:300,700');
+// // @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Muli:300,600&display=swap');
+
+// Set color variables in root to use in Tailwind config and Vue components
+@import 'colors';
+
+* {
+  font-weight: 300;
+}
+// Tailwind
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable */
+
+// Set body and html to always be full height
+/* stylelint-disable */
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  letter-spacing: .5px;
+}
+
+// Text body refers to body-mo and body-sm (desk). Because this value is fixed by breaking point
+// we use a single class and modify its values per breakpoint according to the design spec
+// Tailwind's font-bold class may be applied when needed
+// .gx-body {
+//   font-family: 'Gothic A1';
+//   font-size: 1rem;
+//   // line-height: 1.5rem;
+// }
+.gx-section-title {
+  font-family: 'Muli';
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+// @media (min-width: 768px) {
+//   .gx-body {
+//     font-family: 'Gothic A1';
+//     font-size: 0.75rem;
+//     // line-height: 1rem;
+//   }
+// }
+
+
+// gx-body is left outside responsive variants, since it's behavior is standard and the default text per breakpoint should not change.
+
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+// remove blue background on buttons and anchors on click
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus, button:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 624px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 880px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1136px;
+  }
+}
+
+// Clases de texto para UI KIT para móvil
+// .gx-overline {
+//   font-size: .75rem;
+//   // line-height: 20px;
+//   text-transform: uppercase;
+//   letter-spacing: 0.1875rem;
+// }
+
+.gx-caption {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  // line-height: 1.5rem;
+}
+
+.gx-subtitle {
+  font-size: 1rem;
+  // line-height: 1.75rem;
+  letter-spacing: normal;
+}
+
+.gx-overline {
+  font-family: 'Muli';
+  font-size: .75rem;
+  // line-height: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+}
+
+.gx-caption {
+  font-family: 'Muli';
+  font-size: .875rem;
+  // line-height: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.gx-subtitle {
+  font-family: 'Muli';
+  font-size: .875rem;
+  letter-spacing: normal;
+}
+
+.gx-h1 {
+  font-family: 'Muli';
+  font-size: 2.875rem;
+  line-height: 3.5rem;
+  letter-spacing: 0;
+}
+
+.gx-h2 {
+  font-family: 'Muli';
+  font-size: 2.375rem;
+  line-height: 3rem;
+  letter-spacing: 0;
+}
+
+.gx-h3 {
+  font-family: 'Muli';
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: 0;
+}
+
+.gx-h4 {
+  font-family: 'Muli';
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.gx-h5 {
+  font-family: 'Muli';
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0;
+}
+
+.gx-h6 {
+  font-family: 'Muli';
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0;
+}
+
+// Clases de texto para UI KIT para desk
+@screen de {
+  .de\:gx-overline {
+    font-family: 'Muli';
+    font-size: .625rem;
+    // line-height: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+  }
+
+  .de\:gx-caption {
+    font-family: 'Muli';
+    font-size: .625rem;
+    // line-height: 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .de\:gx-subtitle {
+    font-family: 'Muli';
+    font-size: .875rem;
+    // line-height: 1.75rem;
+    letter-spacing: normal;
+  }
+  .gx-h1 {
+    font-family: 'Muli';
+    font-size: 2.875rem;
+    line-height: 3.5rem;
+    letter-spacing: 0;
+  }
+
+  .de\:gx-h2 {
+    font-family: 'Muli';
+    font-size: 2.375rem;
+    line-height: 3rem;
+    letter-spacing: 0;
+  }
+
+  .de\:gx-h3 {
+    font-family: 'Muli';
+    font-size: 1.75rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+  }
+
+  .de\:gx-h4 {
+    font-family: 'Muli';
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .de\:gx-h5 {
+    font-family: 'Muli';
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+  }
+
+  .de\:gx-h6 {
+    font-family: 'Muli';
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0;
+  }
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "code": "G01",
+    "use": "Adquisición de mercancias",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "G02",
+    "use": "Devoluciones",
+    "valid_for_person": " descuentos o bonificaciones",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "G03",
+    "use": "Gastos en general",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "I01",
+    "use": "Construcciones",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "I02",
+    "use": "Mobilario y equipo de oficina por inversiones",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "I03",
+    "use": "Equipo de transporte",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "I04",
+    "use": "Equipo de computo y accesorios",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "I05",
+    "use": "Dados",
+    "valid_for_person": " troqueles",
+    "valid_for_company": " moldes"
+  },
+  {
+    "code": "I06",
+    "use": "Comunicaciones telefónicas",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "I07",
+    "use": "Comunicaciones satelitales",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "I08",
+    "use": "Otra maquinaria y equipo",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "D01",
+    "use": "Honorarios médicos",
+    "valid_for_person": " dentales y gastos hospitalarios.",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "D02",
+    "use": "Gastos médicos por incapacidad o discapacidad",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "D03",
+    "use": "Gastos funerales.",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "D04",
+    "use": "Donativos.",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "D05",
+    "use": "Intereses reales efectivamente pagados por créditos hipotecarios (casa habitación).",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "D06",
+    "use": "Aportaciones voluntarias al SAR.",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "D07",
+    "use": "Primas por seguros de gastos médicos.",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "D08",
+    "use": "Gastos de transportación escolar obligatoria.",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "D09",
+    "use": "Depósitos en cuentas para el ahorro",
+    "valid_for_person": " primas que tengan como base planes de pensiones.",
+    "valid_for_company": "true"
+  },
+  {
+    "code": "D10",
+    "use": "Pagos por servicios educativos (colegiaturas)",
+    "valid_for_person": "true",
+    "valid_for_company": "false"
+  },
+  {
+    "code": "P01",
+    "use": "Por definir",
+    "valid_for_person": "true",
+    "valid_for_company": "true"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "regime_code": "601",
+    "description": "General de Ley Personas Morales",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "603",
+    "description": "Personas Morales con Fines no Lucrativos",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "605",
+    "description": "Sueldos y Salarios e Ingresos Asimilados a Salarios",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "606",
+    "description": "Arrendamiento",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "608",
+    "description": "Demás ingresos",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "609",
+    "description": "Consolidación",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "610",
+    "description": "Residentes en el Extranjero sin Establecimiento Permanente en México",
+    "valid_for_person": true,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "611",
+    "description": "Ingresos por Dividendos (socios y accionistas)",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "612",
+    "description": "Personas Físicas con Actividades Empresariales y Profesionales",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "614",
+    "description": "Ingresos por intereses",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "616",
+    "description": "Sin obligaciones fiscales",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "620",
+    "description": "Sociedades Cooperativas de Producción que optan por diferir sus ingresos",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "621",
+    "description": "Incorporación Fiscal",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "622",
+    "description": "Actividades Agrícolas",
+    "valid_for_person": true,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "623",
+    "description": "Opcional para Grupos de Sociedades",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "624",
+    "description": "Coordinados",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "628",
+    "description": "Hidrocarburos",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "607",
+    "description": "Régimen de Enajenación o Adquisición de Bienes",
+    "valid_for_person": false,
+    "valid_for_company": true
+  },
+  {
+    "regime_code": "629",
+    "description": "De los Regímenes Fiscales Preferentes y de las Empresas Multinacionales",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "630",
+    "description": "Enajenación de acciones en bolsa de valores",
+    "valid_for_person": true,
+    "valid_for_company": false
+  },
+  {
+    "regime_code": "615",
+    "description": "Régimen de los ingresos por obtención de premios",
+    "valid_for_person": true,
+    "valid_for_company": false
+  }
+]

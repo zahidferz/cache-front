@@ -1,0 +1,68 @@
+[
+  {
+    "code": "ISR-RET-FED",
+    "taxName": "ISR",
+    "taxType": "withheld",
+    "collectionLevel": "Federal"
+  },
+  {
+    "code": "IVA-TRA-FED",
+    "taxName": "IVA",
+    "taxType": "transferred",
+    "collectionLevel": "Federal"
+  },
+  {
+    "code": "IVA-RET-FED",
+    "taxName": "IVA",
+    "taxType": "withheld",
+    "collectionLevel": "Federal"
+  },
+  {
+    "code": "IEPS-TRA-FED",
+    "taxName": "IEPS",
+    "taxType": "transferred",
+    "collectionLevel": "Federal"
+  },
+  {
+    "code": "IEPS-RET-FED",
+    "taxName": "IEPS",
+    "taxType": "withheld",
+    "collectionLevel": "Federal"
+  },
+  {
+    "code": "ISH-TRA-LOC",
+    "taxName": "ISH",
+    "taxType": "transferred",
+    "collectionLevel": "Local"
+  },
+  {
+    "code": "CED-RET-LOC",
+    "taxName": "Cedular",
+    "taxType": "withheld",
+    "collectionLevel": "Local"
+  },
+  {
+    "code": "5-AL-MILLAR-RET-LOC",
+    "taxName": "5 al millar",
+    "taxType": "withheld",
+    "collectionLevel": "Local"
+  },
+  {
+    "code": "ISN-RET-LOC",
+    "taxName": "ISN",
+    "taxType": "withheld",
+    "collectionLevel": "Local"
+  },
+  {
+    "code": "FN-PUB-RET-LOC",
+    "taxName": "FUNCION PUBLICA",
+    "taxType": "withheld",
+    "collectionLevel": "Local"
+  },
+  {
+    "code": "IVA-EXENTO-TRA-FED",
+    "taxName": "IVA-EXENTO",
+    "taxType": "transferred",
+    "collectionLevel": "Federal"
+  }
+]

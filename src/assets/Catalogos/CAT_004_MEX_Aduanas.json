@@ -1,0 +1,198 @@
+[
+  {
+    "code": "1",
+    "name": "Acapulco"
+  },
+  {
+    "code": "2",
+    "name": "Agua Prieta"
+  },
+  {
+    "code": "5",
+    "name": "Subteniente Lopez"
+  },
+  {
+    "code": "6",
+    "name": "Ciudad Del Carmen"
+  },
+  {
+    "code": "7",
+    "name": "Ciudad Juárez"
+  },
+  {
+    "code": "8",
+    "name": "Coatzacoalcos"
+  },
+  {
+    "code": "11",
+    "name": "Ensenada"
+  },
+  {
+    "code": "12",
+    "name": "Guaymas"
+  },
+  {
+    "code": "14",
+    "name": "La Paz"
+  },
+  {
+    "code": "16",
+    "name": "Manzanillo"
+  },
+  {
+    "code": "17",
+    "name": "Matamoros"
+  },
+  {
+    "code": "18",
+    "name": "Mazatlán"
+  },
+  {
+    "code": "19",
+    "name": "Mexicali"
+  },
+  {
+    "code": "20",
+    "name": "México"
+  },
+  {
+    "code": "22",
+    "name": "Naco"
+  },
+  {
+    "code": "23",
+    "name": "Nogales"
+  },
+  {
+    "code": "24",
+    "name": "Nuevo Laredo"
+  },
+  {
+    "code": "25",
+    "name": "Ojinaga"
+  },
+  {
+    "code": "26",
+    "name": "Puerto Palomas"
+  },
+  {
+    "code": "27",
+    "name": "Piedras Negras"
+  },
+  {
+    "code": "28",
+    "name": "Progreso"
+  },
+  {
+    "code": "30",
+    "name": "Ciudad Reynosa"
+  },
+  {
+    "code": "31",
+    "name": "Salina Cruz"
+  },
+  {
+    "code": "33",
+    "name": "San Luis Rio Colorado"
+  },
+  {
+    "code": "34",
+    "name": "Ciudad Miguel Alemán"
+  },
+  {
+    "code": "37",
+    "name": "Ciudad Hidalgo"
+  },
+  {
+    "code": "38",
+    "name": "Tampico"
+  },
+  {
+    "code": "39",
+    "name": "Tecate"
+  },
+  {
+    "code": "40",
+    "name": "Tijuana"
+  },
+  {
+    "code": "42",
+    "name": "Tuxpan"
+  },
+  {
+    "code": "43",
+    "name": "Veracruz"
+  },
+  {
+    "code": "44",
+    "name": "Ciudad Acuña"
+  },
+  {
+    "code": "46",
+    "name": "Torreón"
+  },
+  {
+    "code": "47",
+    "name": "Aeropuerto Internacional De La Ciudad De México"
+  },
+  {
+    "code": "48",
+    "name": "Guadalajara"
+  },
+  {
+    "code": "50",
+    "name": "Sonoyta"
+  },
+  {
+    "code": "51",
+    "name": "Lázaro Cárdenas"
+  },
+  {
+    "code": "52",
+    "name": "Monterrey"
+  },
+  {
+    "code": "53",
+    "name": "Cancún"
+  },
+  {
+    "code": "64",
+    "name": "Querétaro"
+  },
+  {
+    "code": "65",
+    "name": "Toluca"
+  },
+  {
+    "code": "67",
+    "name": "Chihuahua"
+  },
+  {
+    "code": "73",
+    "name": "Aguascalientes"
+  },
+  {
+    "code": "75",
+    "name": "Puebla"
+  },
+  {
+    "code": "80",
+    "name": "Colombia"
+  },
+  {
+    "code": "81",
+    "name": "Altamira"
+  },
+  {
+    "code": "82",
+    "name": "Ciudad Camargo"
+  },
+  {
+    "code": "83",
+    "name": "Dos Bocas"
+  },
+  {
+    "code": "84",
+    "name": "Guanajuato"
+  }
+]

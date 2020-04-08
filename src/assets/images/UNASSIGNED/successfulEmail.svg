@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176" height="176" viewBox="0 0 176 176">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4a1ed9"/>
+      <stop offset="0.917" stop-color="#5d2af5"/>
+      <stop offset="1" stop-color="#602cf8"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_2456" data-name="Grupo 2456" transform="translate(-6578.392 -169.458)">
+    <rect id="Rectángulo_1872" data-name="Rectángulo 1872" width="176" height="176" transform="translate(6578.392 169.457)" fill="none"/>
+    <path id="Trazado_4834" data-name="Trazado 4834" d="M6592.55,271.743s-16.106-48.966,24.631-74.952,118.421-15.564,126.947,23.278.948,77.684-36,96.631S6606.707,332.891,6592.55,271.743Z" fill="url(#linear-gradient)"/>
+    <g id="Grupo_2455" data-name="Grupo 2455">
+      <path id="Trazado_4835" data-name="Trazado 4835" d="M6626.473,238.655l14.494,27.5,107.148-74.314Z" fill="#f8c212"/>
+      <path id="Trazado_4836" data-name="Trazado 4836" d="M6748.6,191.541l-150.332,34.917,28.2,12.2Z" fill="#f09521"/>
+      <path id="Trazado_4837" data-name="Trazado 4837" d="M6639.479,247.394l1.488,18.764,11.185-8.1Z" fill="#d07328"/>
+      <path id="Trazado_4838" data-name="Trazado 4838" d="M6639.479,247.394l37.8,45.331L6748.6,191.541Z" fill="#f09521"/>
+    </g>
+    <path id="Trazado_4839" data-name="Trazado 4839" d="M6635.193,277.8s-32.674,1.005-56.8,26.967C6578.392,304.764,6602.35,284.779,6635.193,277.8Z" fill="#ffc039"/>
+    <path id="Trazado_4840" data-name="Trazado 4840" d="M6644.654,286.6s-23.786,22.424-24.622,57.856C6620.032,344.457,6624.705,313.61,6644.654,286.6Z" fill="#ffc039"/>
+    <path id="Trazado_4841" data-name="Trazado 4841" d="M6639.55,284.918s-21.759,11.307-29.623,36.7C6609.927,321.621,6619.621,300.32,6639.55,284.918Z" fill="#ffc039"/>
+    <path id="Trazado_4842" data-name="Trazado 4842" d="M6636.019,282s-23.881,5.564-37.792,28.22C6598.227,310.219,6612.9,291.984,6636.019,282Z" fill="#ffc039"/>
+  </g>
+</svg>

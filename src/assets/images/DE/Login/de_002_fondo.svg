@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none"  viewBox="0 0 730 832">
+  <defs>
+    <radialGradient id="radial-gradient" cx="-10820.868" cy="780.287" r="343.567" gradientTransform="matrix(-1.139, 0, 0, 1.139, -24810.613, -87.445)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDE375"/>
+      <stop offset="0.319" stop-color="#5a29f6"/>
+      <stop offset="0.651" stop-color="#4e24f0"/>
+      <stop offset="1" stop-color="#4b23ef"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_34760" data-name="Grupo 34760" transform="translate(-294 56.548)">
+    <g id="Grupo_34726" data-name="Grupo 34726" transform="translate(0 -0.548)">
+      <g id="Grupo_34726-2" data-name="Grupo 34726" transform="translate(-484.998 -208.269)">
+        <path id="Trazado_38951" data-name="Trazado 38951" d="M779,984.269s64.711-151.225,64.711-443.733C843.709,269.975,779,152.269,779,152.269H1509.31v832Z" fill="#FDE375"/>
+      </g>
+    </g>
+  </g>
+</svg>

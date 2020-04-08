@@ -1,0 +1,19 @@
+.gxFormImage {
+  max-width: inherit;
+}
+.backgroundColor {
+  background-color: #243445;
+}
+
+@media screen and (max-width: 699px) {
+  .gxFormImageContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .gxFormImage {
+    width: 100%;
+  }
+}

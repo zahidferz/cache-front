@@ -1,0 +1,6 @@
+/* Set the root div from Storybook to 100% height for proper display of layouts */
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

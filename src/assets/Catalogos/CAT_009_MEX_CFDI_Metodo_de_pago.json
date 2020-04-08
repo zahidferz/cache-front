@@ -1,0 +1,10 @@
+[
+  {
+    "code": "PUE",
+    "payment_method": "Pago en una sola exhibición"
+  },
+  {
+    "code": "PPD",
+    "payment_method": "Pago en parcialidades o diferido"
+  }
+]

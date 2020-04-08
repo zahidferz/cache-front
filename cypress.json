@@ -1,0 +1,13 @@
+{
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "testFiles": "*.feature",
+  "ignoreTestFiles": "*.js",
+  "integrationFolder": "tests/e2e/specs",
+  "chromeWebSecurity": false,
+  "projectId": "5r3sc9",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "results/Test_Results.xml",
+    "toConsole": true
+  }
+}

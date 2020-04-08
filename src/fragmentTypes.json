@@ -1,0 +1,75 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "UNION",
+        "name": "CompanyDataLocalized",
+        "possibleTypes": [
+          { "name": "CompanyDataLocalized_MEX" },
+          { "name": "Empty" }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "BranchDataLocalized",
+        "possibleTypes": [
+          { "name": "BranchDataLocalized_MEX" },
+          { "name": "Empty" }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "MoneyAccountAdditionalData",
+        "possibleTypes": [
+          { "name": "CreditAccountAdditionalData" },
+          { "name": "Empty" }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "MoneyAccountDataLocalized",
+        "possibleTypes": [
+          { "name": "MoneyAccountData_MEX" },
+          { "name": "Empty" }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "ItemAdditionalDataLocalized",
+        "possibleTypes": [
+          { "name": "ItemAdditionalData_MEX" },
+          { "name": "Empty" }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "IncomeDocument",
+        "possibleTypes": [{ "name": "Sale" }, { "name": "Empty" }]
+      },
+      {
+        "kind": "UNION",
+        "name": "TransactionAdditionalDataLocalized",
+        "possibleTypes": [
+          { "name": "TransactionAdditionalData_MEX" },
+          { "name": "Empty" }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "SaleAdditionalDataLocalized",
+        "possibleTypes": [
+          { "name": "SaleAdditionalData_MEX" },
+          { "name": "Empty" }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "FrequentItemAdditionalDataLocalized",
+        "possibleTypes": [
+          { "name": "FrequentItemAdditionalData_MEX" },
+          { "name": "Empty" }
+        ]
+      }
+    ]
+  }
+}

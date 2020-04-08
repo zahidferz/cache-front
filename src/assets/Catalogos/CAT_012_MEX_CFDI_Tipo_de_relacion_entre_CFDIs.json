@@ -1,0 +1,38 @@
+[
+  {
+    "c_TipoRelacion": "01",
+    "Descripción": "Nota de crédito de los documentos relacionados"
+  },
+  {
+    "c_TipoRelacion": "02",
+    "Descripción": "Nota de débito de los documentos relacionados"
+  },
+  {
+    "c_TipoRelacion": "03",
+    "Descripción": "Devolución de mercancía sobre facturas o traslados previos"
+  },
+  {
+    "c_TipoRelacion": "04",
+    "Descripción": "Sustitución de los CFDI previos"
+  },
+  {
+    "c_TipoRelacion": "05",
+    "Descripción": "Traslados de mercancias facturados previamente"
+  },
+  {
+    "c_TipoRelacion": "06",
+    "Descripción": "Factura generada por los traslados previos"
+  },
+  {
+    "c_TipoRelacion": "07",
+    "Descripción": "CFDI por aplicación de anticipo"
+  },
+  {
+    "c_TipoRelacion": "08",
+    "Descripción": "Factura generada por pagos en parcialidades"
+  },
+  {
+    "c_TipoRelacion": "09",
+    "Descripción": "Factura generada por pagos diferidos"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "code": "01",
+    "payment_type": "Efectivo",
+    "uses_bank": "false"
+  },
+  {
+    "code": "02",
+    "payment_type": "Cheque nominativo",
+    "uses_bank": "true"
+  },
+  {
+    "code": "03",
+    "payment_type": "Transferencia electrónica de fondos",
+    "uses_bank": "true"
+  },
+  {
+    "code": "04",
+    "payment_type": "Tarjeta de crédito",
+    "uses_bank": "true"
+  },
+  {
+    "code": "05",
+    "payment_type": "Monedero electrónico",
+    "uses_bank": "true"
+  },
+  {
+    "code": "06",
+    "payment_type": "Dinero electrónico",
+    "uses_bank": "true"
+  },
+  {
+    "code": "08",
+    "payment_type": "Vales de despensa",
+    "uses_bank": "false"
+  },
+  {
+    "code": "12",
+    "payment_type": "Dación en pago",
+    "uses_bank": "false"
+  },
+  {
+    "code": "13",
+    "payment_type": "Pago por subrogación",
+    "uses_bank": "false"
+  },
+  {
+    "code": "14",
+    "payment_type": "Pago por consignación",
+    "uses_bank": "false"
+  },
+  {
+    "code": "15",
+    "payment_type": "Condonación",
+    "uses_bank": "false"
+  },
+  {
+    "code": "17",
+    "payment_type": "Compensación",
+    "uses_bank": "false"
+  },
+  {
+    "code": "23",
+    "payment_type": "Novación",
+    "uses_bank": "false"
+  },
+  {
+    "code": "24",
+    "payment_type": "Confusión",
+    "uses_bank": "false"
+  },
+  {
+    "code": "25",
+    "payment_type": "Remisión de deuda",
+    "uses_bank": "false"
+  },
+  {
+    "code": "26",
+    "payment_type": "Prescripción o caducidad",
+    "uses_bank": "false"
+  },
+  {
+    "code": "27",
+    "payment_type": "A satisfacción del acreedor",
+    "uses_bank": "false"
+  },
+  {
+    "code": "28",
+    "payment_type": "Tarjeta de débito",
+    "uses_bank": "true"
+  },
+  {
+    "code": "29",
+    "payment_type": "Tarjeta de servicios",
+    "uses_bank": "true"
+  },
+  {
+    "code": "30",
+    "payment_type": "Aplicación de anticipos",
+    "uses_bank": "false"
+  },
+  {
+    "code": "31",
+    "payment_type": "Intermediario pagos",
+    "uses_bank": "false"
+  },
+  {
+    "code": "99",
+    "payment_type": "Por definir",
+    "uses_bank": "false"
+  }
+]

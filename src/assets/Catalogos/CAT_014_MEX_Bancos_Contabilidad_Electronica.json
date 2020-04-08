@@ -1,0 +1,467 @@
+[
+  {
+    "bankCode": "002",
+    "name": "Citibanamex",
+    "longName": "Citibanamex"
+  },
+  {
+    "bankCode": "006",
+    "name": "Bancomext",
+    "longName": "Banco Nacional de Comercio Exterior"
+  },
+  {
+    "bankCode": "009",
+    "name": "Banobras",
+    "longName": "Banco Nacional de Obras y Servicios Públicos"
+  },
+  {
+    "bankCode": "012",
+    "name": "BBVA",
+    "longName": "BBVA"
+  },
+  {
+    "bankCode": "014",
+    "name": "Santander",
+    "longName": "Banco Santander"
+  },
+  {
+    "bankCode": "019",
+    "name": "Banjercito",
+    "longName": "Banco Nacional del Ejército, Fuerza Aérea y Armada"
+  },
+  {
+    "bankCode": "021",
+    "name": "HSBC",
+    "longName": "HSBC México"
+  },
+  {
+    "bankCode": "030",
+    "name": "Banco del Bajío",
+    "longName": "Banco del Bajío"
+  },
+  {
+    "bankCode": "032",
+    "name": "IXE",
+    "longName": "IXE Banco"
+  },
+  {
+    "bankCode": "036",
+    "name": "Inbursa",
+    "longName": "Banco Inbursa"
+  },
+  {
+    "bankCode": "037",
+    "name": "Interacciones",
+    "longName": "Banco Interacciones"
+  },
+  {
+    "bankCode": "042",
+    "name": "Mifel",
+    "longName": "Banca Mifel"
+  },
+  {
+    "bankCode": "044",
+    "name": "Scotiabank",
+    "longName": "Scotiabank Inverlat"
+  },
+  {
+    "bankCode": "058",
+    "name": "Banregio",
+    "longName": "Banco Regional de Monterrey"
+  },
+  {
+    "bankCode": "059",
+    "name": "Invex",
+    "longName": "Banco Invex"
+  },
+  {
+    "bankCode": "060",
+    "name": "Bansi",
+    "longName": "Bansi"
+  },
+  {
+    "bankCode": "062",
+    "name": "Afirme",
+    "longName": "Banca Afirme"
+  },
+  {
+    "bankCode": "072",
+    "name": "Banorte",
+    "longName": "Banco Mercantil del Norte"
+  },
+  {
+    "bankCode": "102",
+    "name": "The Royal Bank",
+    "longName": "The Royal Bank of Scotland México"
+  },
+  {
+    "bankCode": "103",
+    "name": "American Express",
+    "longName": "American Express Bank"
+  },
+  {
+    "bankCode": "106",
+    "name": "Bansa",
+    "longName": "Bank of America México"
+  },
+  {
+    "bankCode": "108",
+    "name": "Tokyo",
+    "longName": "Bank of Tokyo - Mitsubishi UFJ"
+  },
+  {
+    "bankCode": "110",
+    "name": "JP Morgan",
+    "longName": "Banco J.P.Morgan"
+  },
+  {
+    "bankCode": "112",
+    "name": "Monex",
+    "longName": "Banco Monex"
+  },
+  {
+    "bankCode": "113",
+    "name": "Ve por más",
+    "longName": "Banco Ve Por Mas"
+  },
+  {
+    "bankCode": "116",
+    "name": "ING",
+    "longName": "ING Bank"
+  },
+  {
+    "bankCode": "124",
+    "name": "Deutsche",
+    "longName": "Deutsche Bank México"
+  },
+  {
+    "bankCode": "126",
+    "name": "Credit Suisse",
+    "longName": "Banco Credit Suisse"
+  },
+  {
+    "bankCode": "127",
+    "name": "Azteca",
+    "longName": "Banco Azteca"
+  },
+  {
+    "bankCode": "128",
+    "name": "Autofin",
+    "longName": "Banco Autofin México"
+  },
+  {
+    "bankCode": "129",
+    "name": "Barclays",
+    "longName": "Barclays Bank México"
+  },
+  {
+    "bankCode": "130",
+    "name": "Compartamos",
+    "longName": "Banco Compartamos"
+  },
+  {
+    "bankCode": "131",
+    "name": "Famsa",
+    "longName": "Banco Ahorro Famsa"
+  },
+  {
+    "bankCode": "132",
+    "name": "Multiva",
+    "longName": "Banco Multiva"
+  },
+  {
+    "bankCode": "133",
+    "name": "Actinver",
+    "longName": "Banco Actinver"
+  },
+  {
+    "bankCode": "134",
+    "name": "Walmart",
+    "longName": "Banco Wal-Mart de México Adelante"
+  },
+  {
+    "bankCode": "135",
+    "name": "Nafin",
+    "longName": "Nacional Financiera"
+  },
+  {
+    "bankCode": "136",
+    "name": "Interbanco",
+    "longName": "Inter Banco"
+  },
+  {
+    "bankCode": "137",
+    "name": "Bancoppel",
+    "longName": "BanCoppel"
+  },
+  {
+    "bankCode": "138",
+    "name": "ABC Capital",
+    "longName": "ABC Capital"
+  },
+  {
+    "bankCode": "139",
+    "name": "UBS",
+    "longName": "UBS Bank México"
+  },
+  {
+    "bankCode": "140",
+    "name": "Consubanco",
+    "longName": "Consubanco"
+  },
+  {
+    "bankCode": "141",
+    "name": "Volkswagen",
+    "longName": "Volkswagen Bank"
+  },
+  {
+    "bankCode": "143",
+    "name": "CI Banco",
+    "longName": "CIBanco"
+  },
+  {
+    "bankCode": "145",
+    "name": "Base",
+    "longName": "Banco Base"
+  },
+  {
+    "bankCode": "166",
+    "name": "Bansefi",
+    "longName": "Banco del Ahorro Nacional y Servicios Financieros"
+  },
+  {
+    "bankCode": "168",
+    "name": "Hipotecaria Federal",
+    "longName": "Sociedad Hipotecaria Federal"
+  },
+  {
+    "bankCode": "600",
+    "name": "Monex",
+    "longName": "Monex Casa de Bolsa"
+  },
+  {
+    "bankCode": "601",
+    "name": "GBM",
+    "longName": "GBM Grupo Bursátil Mexicano"
+  },
+  {
+    "bankCode": "602",
+    "name": "Masari",
+    "longName": "Masari Casa de Bolsa"
+  },
+  {
+    "bankCode": "605",
+    "name": "Value",
+    "longName": "Value"
+  },
+  {
+    "bankCode": "606",
+    "name": "Estructuradores",
+    "longName": "Estructuradores del Mercado de Valores Casa de Bolsa"
+  },
+  {
+    "bankCode": "607",
+    "name": "Tiber",
+    "longName": "Casa de Cambio Tiber"
+  },
+  {
+    "bankCode": "608",
+    "name": "Vector",
+    "longName": "Vector Casa de Bolsa"
+  },
+  {
+    "bankCode": "610",
+    "name": "B&B",
+    "longName": "B y B"
+  },
+  {
+    "bankCode": "614",
+    "name": "Accival",
+    "longName": "Acciones y Valores Banamex"
+  },
+  {
+    "bankCode": "615",
+    "name": "Merrill Lynch",
+    "longName": "Merrill Lynch México"
+  },
+  {
+    "bankCode": "616",
+    "name": "Finamex",
+    "longName": "Casa de Bolsa Finamex"
+  },
+  {
+    "bankCode": "617",
+    "name": "Valmex",
+    "longName": "Valores Mexicanos Casa de Bolsa"
+  },
+  {
+    "bankCode": "618",
+    "name": "Unica",
+    "longName": "Unica Casa de Cambio"
+  },
+  {
+    "bankCode": "619",
+    "name": "Mapfre",
+    "longName": "MAPFRE Tepeyac"
+  },
+  {
+    "bankCode": "620",
+    "name": "Profuturo",
+    "longName": "Profuturo GNP"
+  },
+  {
+    "bankCode": "621",
+    "name": "Actinver Casa de Bolsa",
+    "longName": "Actinver Casa de Bolsa"
+  },
+  {
+    "bankCode": "622",
+    "name": "Operadora Actinver",
+    "longName": "OPERADORA ACTINVER"
+  },
+  {
+    "bankCode": "623",
+    "name": "Skandia",
+    "longName": "Skandia Vida"
+  },
+  {
+    "bankCode": "626",
+    "name": "Deutsche Securities",
+    "longName": "Deutsche Securities"
+  },
+  {
+    "bankCode": "627",
+    "name": "Zurich",
+    "longName": "Zurich Compañía de Seguros"
+  },
+  {
+    "bankCode": "628",
+    "name": "Zurich Vida",
+    "longName": "Zurich Vida"
+  },
+  {
+    "bankCode": "629",
+    "name": "Su casita",
+    "longName": "Hipotecaria Su Casita"
+  },
+  {
+    "bankCode": "630",
+    "name": "Intercam",
+    "longName": "Intercam Casa de Bolsa"
+  },
+  {
+    "bankCode": "631",
+    "name": "CI Cada de Bolsa",
+    "longName": "Casa de Bolsa"
+  },
+  {
+    "bankCode": "632",
+    "name": "Bulltick",
+    "longName": "Bulltick Casa de Bolsa"
+  },
+  {
+    "bankCode": "633",
+    "name": "Sterling",
+    "longName": "Sterling Casa de Cambio"
+  },
+  {
+    "bankCode": "634",
+    "name": "Fincomun",
+    "longName": "Fincomún"
+  },
+  {
+    "bankCode": "636",
+    "name": "HDI Seguros",
+    "longName": "HDI Seguros"
+  },
+  {
+    "bankCode": "637",
+    "name": "Order Express",
+    "longName": "Order Express Casa de Cambio"
+  },
+  {
+    "bankCode": "638",
+    "name": "Akala",
+    "longName": "Akala "
+  },
+  {
+    "bankCode": "640",
+    "name": "J.P.Morgan Casa de Bolsa",
+    "longName": "J.P.Morgan Casa de Bolsa "
+  },
+  {
+    "bankCode": "642",
+    "name": "Reforma",
+    "longName": "Operadora de Recursos Reforma"
+  },
+  {
+    "bankCode": "646",
+    "name": "STP",
+    "longName": "Sistema de Transferencias y Pagos STPSOFOM ENR"
+  },
+  {
+    "bankCode": "647",
+    "name": "Telecomm",
+    "longName": "Telecomunicaciones de México"
+  },
+  {
+    "bankCode": "648",
+    "name": "Evercore",
+    "longName": "Evercore Casa de Bolsa"
+  },
+  {
+    "bankCode": "649",
+    "name": "Skandia",
+    "longName": "Skandia Operadora de Fondos"
+  },
+  {
+    "bankCode": "651",
+    "name": "Seguros Monterrey New York Life",
+    "longName": "Seguros Monterrey New York Life"
+  },
+  {
+    "bankCode": "652",
+    "name": "ASEA",
+    "longName": "Solución Asea"
+  },
+  {
+    "bankCode": "653",
+    "name": "Kuspit",
+    "longName": "Kuspit Casa de Bolsa"
+  },
+  {
+    "bankCode": "655",
+    "name": "Sofiexpress",
+    "longName": "Sofiexpress"
+  },
+  {
+    "bankCode": "656",
+    "name": "Unagra",
+    "longName": "Unagra"
+  },
+  {
+    "bankCode": "659",
+    "name": "Opciones Empresariales del Noroeste",
+    "longName": "Opciones Empresariales del Noroeste"
+  },
+  {
+    "bankCode": "901",
+    "name": "Cls Bank International",
+    "longName": "Cls Bank International"
+  },
+  {
+    "bankCode": "902",
+    "name": "Indeval",
+    "longName": "Indeval"
+  },
+  {
+    "bankCode": "670",
+    "name": "Libertad",
+    "longName": "Libertad Servicios Financieros"
+  },
+  {
+    "bankCode": "999",
+    "name": "N/A",
+    "longName": "No Aplica"
+  }
+]
