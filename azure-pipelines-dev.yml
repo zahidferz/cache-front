@@ -41,7 +41,7 @@ jobs:
     inputs:
       keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
       targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: '8c74558d-f0e4-4438-a798-16d571331b8e'
+      vstsFeed: '1ae3a31d-2e88-4c15-a399-aed06fc5915e/8c74558d-f0e4-4438-a798-16d571331b8e'
     displayName: 'Install dependencies'
 
   - script: |
