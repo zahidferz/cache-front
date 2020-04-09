@@ -13,6 +13,7 @@ storybook-static/
 /tests/e2e/videos/
 /tests/e2e/screenshots/
 /tests/unit/coverage/
+/results/
 jsconfig.json
 
 # Local Env Files
