@@ -19,7 +19,7 @@ jobs:
   displayName: Build
   dependsOn: GetVersion
   variables:
-    YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
+    YARN_CACHE_FOLDER: $(Pipeline.Workspace)/node_modules
     appVersion: $[ dependencies.GetVersion.outputs['App.version'] ]
     buildIncrement: $[counter(variables['appVersion'], 0)] # create a counter that is used to increment build run for same app version
     buildVersion: "$(appVersion)-r$(buildIncrement)"
