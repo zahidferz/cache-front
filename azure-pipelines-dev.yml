@@ -50,6 +50,7 @@ jobs:
 
   - script: |
       ls -a
+      echo $(Pipeline.Workspace)
 
   - script: |
       yarn install --frozen-lockfile --verbose --prefer-offline
