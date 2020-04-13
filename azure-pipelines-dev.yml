@@ -35,6 +35,10 @@ jobs:
   - script: |
       sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
     displayName: 'Edit Host'
+
+  - script: |
+      ls -a
+
   - task: Cache@2
     inputs:
       key: 'yarn | "$(Agent.OS)" | yarn.lock'
@@ -46,9 +50,6 @@ jobs:
 
   - script: |
       ls -a
-      echo "-------------------"
-      cd $(Build.SourcesDirectory)
-      ls
 
   - script: |
       yarn install --frozen-lockfile --verbose --prefer-offline
