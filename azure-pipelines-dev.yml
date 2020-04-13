@@ -46,69 +46,69 @@ jobs:
       yarn
     displayName: 'Install dependencies'
 
-  - script: |
-      yarn test:unit
-    displayName: 'Run tests unit'
-    env:
-      VUE_APP_ACC_PROV_URL_CLIENT_ID: $(VUE_APP_ACC_PROV_URL_CLIENT_ID)
-      VUE_APP_ACC_PROV_URL_CLIENT_SECRET: $(VUE_APP_ACC_PROV_URL_CLIENT_SECRET)
-      VUE_APP_AUTH0_CLIENT_ID: $(VUE_APP_AUTH0_CLIENT_ID)
-      VUE_APP_AUTH_URL_APP_ID: $(VUE_APP_AUTH_URL_APP_ID)
-      VUE_APP_AUTH_URL_CLIENT_ID: $(VUE_APP_AUTH_URL_CLIENT_ID)
-      VUE_APP_AUTH_URL_APP_SECRET: $(VUE_APP_AUTH_URL_APP_SECRET)
-      VUE_APP_INTERCOM: $(VUE_APP_INTERCOM)
-  - script: |
-      yarn test:e2e
-    displayName: 'Run tests e2e'
-    env:
-      VUE_APP_ACC_PROV_URL_CLIENT_ID: $(VUE_APP_ACC_PROV_URL_CLIENT_ID)
-      VUE_APP_ACC_PROV_URL_CLIENT_SECRET: $(VUE_APP_ACC_PROV_URL_CLIENT_SECRET)
-      VUE_APP_AUTH0_CLIENT_ID: $(VUE_APP_AUTH0_CLIENT_ID)
-      VUE_APP_AUTH_URL_APP_ID: $(VUE_APP_AUTH_URL_APP_ID)
-      VUE_APP_AUTH_URL_CLIENT_ID: $(VUE_APP_AUTH_URL_CLIENT_ID)
-      VUE_APP_AUTH_URL_APP_SECRET: $(VUE_APP_AUTH_URL_APP_SECRET)
-    timeoutInMinutes: 15
-  - task: PublishPipelineArtifact@0
-    displayName: 'Publish Screenshots (Cypress)'
-    condition: failed()
-    inputs:
-      artifactName: 'screenshots'
-      targetPath: '$(Build.SourcesDirectory)/tests/e2e/screenshots'
-
-  - task: PublishPipelineArtifact@0
-    displayName: 'Publish Videos (Cypress)'
-    condition: failed()
-    inputs:
-      artifactName: 'videos'
-      targetPath: '$(Build.SourcesDirectory)/tests/e2e/videos'
-
-  - task: PublishTestResults@2
-    displayName: Publish test results (Cypress)
-    condition: succeededOrFailed()
-    inputs:
-      testRunner: JUnit
-      testResultsFiles: '$(Build.SourcesDirectory)/tests/cypress-junit-report.*.xml'
-
-  - script: |
-      yarn build $(BUILD_MODE)
-      yarn storybook:build
-    displayName: 'Run build'
-    env:
-      VUE_APP_ACC_PROV_URL_CLIENT_ID: $(VUE_APP_ACC_PROV_URL_CLIENT_ID)
-      VUE_APP_ACC_PROV_URL_CLIENT_SECRET: $(VUE_APP_ACC_PROV_URL_CLIENT_SECRET)
-      VUE_APP_AUTH0_CLIENT_ID: $(VUE_APP_AUTH0_CLIENT_ID)
-      VUE_APP_AUTH_URL_APP_ID: $(VUE_APP_AUTH_URL_APP_ID)
-      VUE_APP_AUTH_URL_CLIENT_ID: $(VUE_APP_AUTH_URL_CLIENT_ID)
-      VUE_APP_AUTH_URL_APP_SECRET: $(VUE_APP_AUTH_URL_APP_SECRET)
-      VUE_APP_INTERCOM: $(VUE_APP_INTERCOM)
-  - task: ArchiveFiles@2
-    inputs:
-      rootFolderOrFile: '$(System.DefaultWorkingDirectory)/dist'
-      includeRootFolder: true
-
-  - task: ArchiveFiles@2
-    inputs:
-      rootFolderOrFile: '$(System.DefaultWorkingDirectory)/storybook-static'
-      includeRootFolder: true
-
+#  - script: |
+#      yarn test:unit
+#    displayName: 'Run tests unit'
+#    env:
+#      VUE_APP_ACC_PROV_URL_CLIENT_ID: $(VUE_APP_ACC_PROV_URL_CLIENT_ID)
+#      VUE_APP_ACC_PROV_URL_CLIENT_SECRET: $(VUE_APP_ACC_PROV_URL_CLIENT_SECRET)
+#      VUE_APP_AUTH0_CLIENT_ID: $(VUE_APP_AUTH0_CLIENT_ID)
+#      VUE_APP_AUTH_URL_APP_ID: $(VUE_APP_AUTH_URL_APP_ID)
+#      VUE_APP_AUTH_URL_CLIENT_ID: $(VUE_APP_AUTH_URL_CLIENT_ID)
+#      VUE_APP_AUTH_URL_APP_SECRET: $(VUE_APP_AUTH_URL_APP_SECRET)
+#      VUE_APP_INTERCOM: $(VUE_APP_INTERCOM)
+#  - script: |
+#      yarn test:e2e
+#    displayName: 'Run tests e2e'
+#    env:
+#      VUE_APP_ACC_PROV_URL_CLIENT_ID: $(VUE_APP_ACC_PROV_URL_CLIENT_ID)
+#      VUE_APP_ACC_PROV_URL_CLIENT_SECRET: $(VUE_APP_ACC_PROV_URL_CLIENT_SECRET)
+#      VUE_APP_AUTH0_CLIENT_ID: $(VUE_APP_AUTH0_CLIENT_ID)
+#      VUE_APP_AUTH_URL_APP_ID: $(VUE_APP_AUTH_URL_APP_ID)
+#      VUE_APP_AUTH_URL_CLIENT_ID: $(VUE_APP_AUTH_URL_CLIENT_ID)
+#      VUE_APP_AUTH_URL_APP_SECRET: $(VUE_APP_AUTH_URL_APP_SECRET)
+#    timeoutInMinutes: 15
+#  - task: PublishPipelineArtifact@0
+#    displayName: 'Publish Screenshots (Cypress)'
+#    condition: failed()
+#    inputs:
+#      artifactName: 'screenshots'
+#      targetPath: '$(Build.SourcesDirectory)/tests/e2e/screenshots'
+#
+#  - task: PublishPipelineArtifact@0
+#    displayName: 'Publish Videos (Cypress)'
+#    condition: failed()
+#    inputs:
+#      artifactName: 'videos'
+#      targetPath: '$(Build.SourcesDirectory)/tests/e2e/videos'
+#
+#  - task: PublishTestResults@2
+#    displayName: Publish test results (Cypress)
+#    condition: succeededOrFailed()
+#    inputs:
+#      testRunner: JUnit
+#      testResultsFiles: '$(Build.SourcesDirectory)/tests/cypress-junit-report.*.xml'
+#
+#  - script: |
+#      yarn build $(BUILD_MODE)
+#      yarn storybook:build
+#    displayName: 'Run build'
+#    env:
+#      VUE_APP_ACC_PROV_URL_CLIENT_ID: $(VUE_APP_ACC_PROV_URL_CLIENT_ID)
+#      VUE_APP_ACC_PROV_URL_CLIENT_SECRET: $(VUE_APP_ACC_PROV_URL_CLIENT_SECRET)
+#      VUE_APP_AUTH0_CLIENT_ID: $(VUE_APP_AUTH0_CLIENT_ID)
+#      VUE_APP_AUTH_URL_APP_ID: $(VUE_APP_AUTH_URL_APP_ID)
+#      VUE_APP_AUTH_URL_CLIENT_ID: $(VUE_APP_AUTH_URL_CLIENT_ID)
+#      VUE_APP_AUTH_URL_APP_SECRET: $(VUE_APP_AUTH_URL_APP_SECRET)
+#      VUE_APP_INTERCOM: $(VUE_APP_INTERCOM)
+#  - task: ArchiveFiles@2
+#    inputs:
+#      rootFolderOrFile: '$(System.DefaultWorkingDirectory)/dist'
+#      includeRootFolder: true
+#
+#  - task: ArchiveFiles@2
+#    inputs:
+#      rootFolderOrFile: '$(System.DefaultWorkingDirectory)/storybook-static'
+#      includeRootFolder: true
+#
   - task: PublishBuildArtifacts@1
