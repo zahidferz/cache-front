@@ -55,6 +55,10 @@ jobs:
       ls -a
       echo "___________________"
       echo $(Pipeline.Workspace)
+      echo "_____________"
+      yarn cache ls
+      echo "_____________"
+      yarn cache dir
 
   - script: |
       yarn install --frozen-lockfile --verbose --prefer-offline
