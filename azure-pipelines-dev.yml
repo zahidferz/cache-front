@@ -19,7 +19,6 @@ jobs:
   displayName: Build
   dependsOn: GetVersion
   variables:
-    YARN_CACHE_FOLDER: $(Pipeline.Workspace)/node_modules
     appVersion: $[ dependencies.GetVersion.outputs['App.version'] ]
     buildIncrement: $[counter(variables['appVersion'], 0)] # create a counter that is used to increment build run for same app version
     buildVersion: "$(appVersion)-r$(buildIncrement)"
@@ -31,18 +30,22 @@ jobs:
     inputs:
       versionSpec: '10.x'
     displayName: 'Install Node.js'
+  
+  - task: UniversalPackages@0
+    inputs:
+      command: 'publish'
+      publishDirectory: '$(Build.ArtifactStagingDirectory)'
+      feedsToUsePublish: 'internal'
+      vstsFeedPublish: '1ae3a31d-2e88-4c15-a399-aed06fc5915e/58b12d1a-86b5-41cc-8f22-a8b2f2497574'
+      vstsFeedPackagePublish: 'Node_Modules'
+      versionOption: 'custom'
+      versionPublish: '1.0.0'
+      packagePublishDescription: 'Node Modules'
+    displayName: Cache Yarn packages
 
   - script: |
       sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
     displayName: 'Edit Host'
-  - task: Cache@2
-    inputs:
-      key: 'yarn | "$(Agent.OS)" | yarn.lock'
-      restoreKeys: |
-         yarn | "$(Agent.OS)"
-         yarn
-      path: $(YARN_CACHE_FOLDER)
-    displayName: Cache Yarn packages
 
   - script: |
       yarn
