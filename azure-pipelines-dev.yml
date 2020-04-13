@@ -45,7 +45,7 @@ jobs:
     displayName: Cache Yarn packages
 
   - script: |
-      ls
+      ls -a
       echo "-------------------"
       cd $(Build.SourcesDirectory)
       ls
