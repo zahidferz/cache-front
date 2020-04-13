@@ -49,7 +49,11 @@ jobs:
     displayName: Cache Yarn packages
 
   - script: |
+      echo $(System.DefaultWorkingDirectory)
+      echo "___________________"
+      cd $(System.DefaultWorkingDirectory)
       ls -a
+      echo "___________________"
       echo $(Pipeline.Workspace)
 
   - script: |
