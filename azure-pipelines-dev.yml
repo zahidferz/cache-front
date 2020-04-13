@@ -19,6 +19,7 @@ jobs:
   displayName: Build
   dependsOn: GetVersion
   variables:
+    YARN_CACHE_FOLDER: $(Pipeline.Workspace)/.yarn
     appVersion: $[ dependencies.GetVersion.outputs['App.version'] ]
     buildIncrement: $[counter(variables['appVersion'], 0)] # create a counter that is used to increment build run for same app version
     buildVersion: "$(appVersion)-r$(buildIncrement)"
@@ -30,23 +31,22 @@ jobs:
     inputs:
       versionSpec: '10.x'
     displayName: 'Install Node.js'
-  
 
   - script: |
       sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
     displayName: 'Edit Host'
-
-  - task: RestoreAndSaveCache@1
+  - task: Cache@2
     inputs:
-      keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
-      targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
-      vstsFeed: '1ae3a31d-2e88-4c15-a399-aed06fc5915e/58b12d1a-86b5-41cc-8f22-a8b2f2497574'
-      alias: 'Gx.BoaFrontCache'
+      key: 'yarn | "$(Agent.OS)" | yarn.lock'
+      restoreKeys: |
+         yarn | "$(Agent.OS)"
+         yarn
+      path: $(YARN_CACHE_FOLDER)
+    displayName: Cache Yarn packages
 
   - script: |
-      yarn
+      yarn install --frozen-lockfile
     displayName: 'Install dependencies'
-
 #  - script: |
 #      yarn test:unit
 #    displayName: 'Run tests unit'
@@ -112,4 +112,5 @@ jobs:
 #      rootFolderOrFile: '$(System.DefaultWorkingDirectory)/storybook-static'
 #      includeRootFolder: true
 #
-  - task: PublishBuildArtifacts@1
+#  - task: PublishBuildArtifacts@1
+
