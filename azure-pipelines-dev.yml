@@ -31,6 +31,15 @@ jobs:
       versionSpec: '10.x'
     displayName: 'Install Node.js'
   
+
+  - script: |
+      sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
+    displayName: 'Edit Host'
+
+  - script: |
+      yarn
+    displayName: 'Install dependencies'
+
   - task: UniversalPackages@0
     inputs:
       command: 'publish'
@@ -43,13 +52,6 @@ jobs:
       packagePublishDescription: 'Node Modules'
     displayName: Cache Yarn packages
 
-  - script: |
-      sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
-    displayName: 'Edit Host'
-
-  - script: |
-      yarn
-    displayName: 'Install dependencies'
   - script: |
       yarn test:unit
     displayName: 'Run tests unit'
