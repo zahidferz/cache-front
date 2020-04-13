@@ -54,6 +54,9 @@ jobs:
   - script: |
       yarn install --frozen-lockfile --verbose --prefer-offline
     displayName: 'Install dependencies'
+
+  - script: |
+      ls -a
 #  - script: |
 #      yarn test:unit
 #    displayName: 'Run tests unit'
