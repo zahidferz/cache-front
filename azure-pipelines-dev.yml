@@ -45,7 +45,11 @@ jobs:
     displayName: Cache Yarn packages
 
   - script: |
-      yarn install --frozen-lockfile
+      cd $(Build.SourcesDirectory)
+      ls
+
+  - script: |
+      yarn install --frozen-lockfile --verbose --prefer-offline
     displayName: 'Install dependencies'
 #  - script: |
 #      yarn test:unit
