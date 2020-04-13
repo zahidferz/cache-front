@@ -36,21 +36,15 @@ jobs:
       sudo -- sh -c -e "echo '127.0.0.1 dev.local' >> /etc/hosts";
     displayName: 'Edit Host'
 
+  - task: RestoreAndSaveCache@1
+    inputs:
+      keyfile: '**/yarn.lock, !**/node_modules/**/yarn.lock, !**/.*/**/yarn.lock'
+      targetfolder: '**/node_modules, !**/node_modules/**/node_modules'
+      vstsFeed: '1ae3a31d-2e88-4c15-a399-aed06fc5915e/58b12d1a-86b5-41cc-8f22-a8b2f2497574'
+
   - script: |
       yarn
     displayName: 'Install dependencies'
-
-  - task: UniversalPackages@0
-    inputs:
-      command: 'publish'
-      publishDirectory: '$(Build.SourcesDirectory)/node_modules'
-      feedsToUsePublish: 'internal'
-      vstsFeedPublish: '1ae3a31d-2e88-4c15-a399-aed06fc5915e/58b12d1a-86b5-41cc-8f22-a8b2f2497574'
-      vstsFeedPackagePublish: 'Node_Modules'
-      versionOption: 'custom'
-      versionPublish: '1.0.0'
-      packagePublishDescription: 'Node Modules'
-    displayName: Cache Yarn packages
 
   - script: |
       yarn test:unit
