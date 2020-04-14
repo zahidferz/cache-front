@@ -60,7 +60,7 @@ jobs:
       yarn cache dir
 
   - script: |
-      yarn install --frozen-lockfile --verbose
+      yarn install --modules-folder $(yarn cache dir)
     displayName: 'Install dependencies'
 
   - script: |
