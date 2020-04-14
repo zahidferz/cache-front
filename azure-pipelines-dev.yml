@@ -61,7 +61,7 @@ jobs:
       yarn cache dir
 
   - script: |
-      yarn install --frozen-lockfile --verbose --prefer-offline
+      yarn install
     displayName: 'Install dependencies'
 
   - script: |
