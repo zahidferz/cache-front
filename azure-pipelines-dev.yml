@@ -50,8 +50,10 @@ jobs:
 
   - script: |
       echo $(System.DefaultWorkingDirectory)
+      pwd
       echo "___________________"
       cd $(System.DefaultWorkingDirectory)
+      pwd
       ls -a
       echo "___________________"
       echo $(Pipeline.Workspace)
