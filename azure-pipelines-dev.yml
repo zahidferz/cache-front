@@ -60,7 +60,7 @@ jobs:
       yarn cache dir
 
   - script: |
-      yarn install --modules-folder $(yarn cache dir)
+      yarn install --modules-folder /home/vsts/work/1/node_modules/v6
     displayName: 'Install dependencies'
 
   - script: |
